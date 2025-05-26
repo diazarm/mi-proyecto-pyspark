@@ -17,6 +17,14 @@ Este proyecto demuestra cómo usar PySpark en un entorno local para procesar tex
 git clone https://github.com/diazarm/mi-proyecto-pyspark.git
 cd mi-proyecto-pyspark
 ````
+Si no tienes instalado pyspark, lo puedes hacer con este comando:
+```bash
+pip install pyspark
+```
+Luego este otro para que te genere el archivo donde estaran las dependencias. 
+```bash
+pip freeze > requirements.txt
+```
 
 2. **Crear y activar el entorno virtual**:
 
@@ -28,14 +36,7 @@ venv\Scripts\activate
 # En Linux/Mac:
 source venv/bin/activate
 ```
-Si no tienes instalado pyspark, lo puedes hacer con este comando:
-```bash
-pip install pyspark
-```
-Luego este otro para que te genere el archivo donde estaran las dependencias. 
-```bash
-pip freeze > requirements.txt
-```
+
 3. **Instalar dependencias**:
 
 ```bash
